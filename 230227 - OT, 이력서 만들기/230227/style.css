@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'adobaonlyR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/adobaonlyR.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-width: fit-content;
+  font-family: 'adobaonlyR';
+}
+
+.mainbox {
+  width: 610px;
+  padding: 30px;
+  margin: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid #ebebeb;
+  box-shadow: 0px 5px 5px 1px rgba(62, 62, 62, 0.1);
+  display: flex;
+}
+
+.title-box {
+  text-align: left;
+  float: left;
+  margin-right: 30px;
+  overflow: hidden;
+  width: 270px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 20px;
+  color: #e4980c;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+}
+
+.name-text {
+  font-size: 17px;
+  color: #7c7c7c;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.profile-img {
+  width: 220px;
+  text-align: right;
+  margin: 23px 0px;
+}
+
+.intro-box {
+  width: 400px;
+  margin-top: 130px;
+}
+
+header,
+footer {
+  text-align: center;
+  background-color: #fbf08a;
+  padding: 1px;
+  font-size: 14px;
+  color: #454545;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+.name-text {
+  font-size: 16px;
+  color: #7c7c7c;
+  font-weight: bold;
+}
+
+.intro-text,
+.about-me-text {
+  font-size: 12px;
+  line-height: 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+.title-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.year-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: right;
+}
+
+.float-wrap {
+  overflow: hidden;
+}
+
+.desc-text {
+  font-size: 11px;
+}
+
+.desc-subtext {
+  font-size: 11px;
+  color: #282828;
+  padding-left: 16px;
+}
+
+.sns-wrap {
+  margin-bottom: 10px;
+}
+
+.sns-img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.sns-wrap a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 0.5px;
+  color: #7c7c7c;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
