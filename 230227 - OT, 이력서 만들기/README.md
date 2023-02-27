@@ -114,4 +114,4 @@ OT 내용 중 ‘멍청한 질문은 없습니다! 누군가에게 반드시 도
 
 - 완성 화면
 
-![Untitled](%5BTIL%20230227%5D%20-%20OT%205d66c20acf1943778b0db6e75cdb304c/Untitled.png)
+![Untitled](https://www.notion.so/TIL-230227-OT-5d66c20acf1943778b0db6e75cdb304c?pvs=4#a4b0357f7c2c4cc7a4478a8fbff51a84)
