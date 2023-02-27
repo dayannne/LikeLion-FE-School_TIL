@@ -8,7 +8,7 @@
 
 #### 02/27(월)
 
-[Orientation & HTML/CSS 강의]
+[Orientation & HTML/CSS 강의](https://github.com/luckjjh/LikeLion_FrontEndSchool_TIL/blob/main/0328/README.md)
 
 #### 02/28(화)
 
