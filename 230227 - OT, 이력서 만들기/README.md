@@ -113,5 +113,6 @@ OT 내용 중 ‘멍청한 질문은 없습니다! 누군가에게 반드시 도
 ## 나만의 이력서 만들기
 
 - 완성 화면
+
 ![image](https://user-images.githubusercontent.com/105140201/221511055-141e0f96-a86e-4204-b4ac-63fc32735375.png)
 
