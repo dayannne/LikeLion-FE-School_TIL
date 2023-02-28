@@ -12,8 +12,7 @@
 
 #### 02/28(화)
 
-[제주코딩베이스캠프 HTML 강의](https://github.com/luckjjh/LikeLion_FrontEndSchool_TIL/tree/main/0329)
-
+[제주코딩베이스캠프 로드맵 & GitHub]()
 
 ### 2주차
 
