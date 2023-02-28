@@ -1,4 +1,4 @@
-# LikeLion_FrontEndSchool_TIL 📑
+# LikeLion_FE-School_TIL 🌼
 
 멋쟁이사자처럼 프론트엔드 스쿨 5기 TIL (02/27~06/30)
 
