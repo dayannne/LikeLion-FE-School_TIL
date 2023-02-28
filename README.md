@@ -12,7 +12,10 @@
 
 #### 02/28(화)
 
-[제주코딩베이스캠프 로드맵 & GitHub]()
+[제주코딩베이스캠프 로드맵 & GitHub](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230228-%EB%A1%9C%EB%93%9C%EB%A7%B5%2CGitHub)
+
+#### 03/02(수)
+
 
 ### 2주차
 
