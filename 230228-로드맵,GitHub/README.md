@@ -83,7 +83,7 @@ Git에 제대로 눈 뜬 날
 
 ## Git & GitHub 기본 개념
 
-[[무료] 30분 요약 강좌 시즌4 : 알잘딱깔센 GitHub - 인프런 | 강의](https://inf.run/tTd6)
+[[무료] 30분 요약 강좌 시즌4 : 알잘딱깔센 GitHub - 인프런 | 강의](https://inf.run/tTd6)<br>
 [[무료] 2022 30분 요약 강좌 시즌 1 : HTML, CSS, Linux, Bootstrap, Python, JS,  jQuery&Ajax - 인프런 | 강의](https://inf.run/zLvi)
 
 용량이 큰 파일을 왔다갔다 하는 불편함 없이
