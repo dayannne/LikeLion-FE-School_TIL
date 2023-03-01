@@ -10,7 +10,7 @@
 
 #### 02/28(화) [로드맵 & GitHub & VSC & HTML emmet](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230228%20-%20%EB%A1%9C%EB%93%9C%EB%A7%B5%2CGitHub)
 
-#### 03/02(수)
+#### 03/02()
 
 
 ### 2주차
