@@ -1,6 +1,4 @@
-## 230302
-
-# 📒 Today I Learned
+오늘 공부한 내용 🌼
 
 
 - HTML 기본 적인 용어&속성 - 그동안 당연한 듯 패스했던 `<!DOCTYPE html>` 이라던지, `charset`, `viewport`등 의미와 용도를 체크해 보았다.
