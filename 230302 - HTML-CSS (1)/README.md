@@ -15,7 +15,7 @@
 
 # ❓today’s Problem
 
-- section 태그 안에 넣은 h1/h2 태그 크기가 동일하게 출력되는 이슈가 있었다.<img src="https://user-images.githubusercontent.com/105140201/222381137-f395723a-904b-4f02-8180-eb4827c326a7.png" width=60% >출처:제주코딩베이스<br>h1은 보통 header 안에 넣어 주는 것이므로 section 안에 쓸 일이 없기에 h1 크기가 다른 것이라고 했다.
+- section 태그 안에 넣은 h1/h2 태그 크기가 동일하게 출력되는 이슈가 있었다.<img src="https://user-images.githubusercontent.com/105140201/222381137-f395723a-904b-4f02-8180-eb4827c326a7.png" width=60% >출처:제주코딩베이스캠프<br>h1은 보통 header 안에 넣어 주는 것이므로 section 안에 쓸 일이 없기에 h1 크기가 다른 것이라고 했다.
 
 - CSS 선택자<br>
 [CSS Speedrun | Test your CSS Skills](https://css-speedrun.netlify.app/)<br>
