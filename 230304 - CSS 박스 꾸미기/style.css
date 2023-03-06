@@ -48,5 +48,6 @@ div:nth-child(3) {
   border: 3px solid #ededed;
   border-radius: 0 50px 50px 50px;
   box-shadow: 15px 13px 15px #e4e4e4;
-  /*말풍선*/
+  border: 3px;
+  /*말풍립니다.선*/
 }
