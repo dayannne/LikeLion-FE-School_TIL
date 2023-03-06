@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: rosybrown;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+.card-item {
+  background: #fff;
+  border-radius: 8px;
+  width: 288px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+  display: flex;
+  margin: 16px;
+}
+
+.card-item .top > img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Pretendard-Regular';
+  padding-left: 16px;
+}
+
+.top-text .title {
+  font-size: 16px;
+  color: #29363d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.top-text .title + p {
+  font-size: 12px;
+  color: #5a6a72;
+}
+
+.middle a > img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.bottom {
+  padding: 16px 16px;
+}
+
+.card-text {
+  font-family: 'Pretendard-Regular';
+}
+
+.card-text p {
+  line-height: 20px;
+  font-size: 12px;
+  color: #5a6a72;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #29363d;
+  display: block;
+}
+
+.bottom .link p {
+  font-size: 14px;
+  color: #29363d;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-left: 6px;
+}
+
+.bottom .link {
+  display: flex;
+  margin: 20px 0px 0px;
+  height: 36px;
+}
+
+.bottom .read {
+  flex: 5;
+}
+
+.bottom .icon {
+  flex: 5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottom .icon a > img {
+  width: 32px;
+  padding-left: 10px;
+}

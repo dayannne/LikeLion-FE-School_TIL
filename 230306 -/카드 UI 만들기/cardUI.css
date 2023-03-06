@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: rosybrown;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+.card-item a {
+  width: 288px;
+  background: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: #29363d;
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-item a > img {
+  width: 100%;
+  aspect-ratio: 288/196;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.card-text {
+  font-family: 'Pretendard-Regular';
+  padding: 24px 16px 16px;
+}
+
+.card-text .title {
+  font-size: 16px;
+  color: #29363d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text .title + p {
+  font-size: 12px;
+  color: #5a6a72;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+  margin: 16px 0 16px 0;
+}
+
+.underline {
+  font-size: 14px;
+  color: #29363d;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-left: 6px;
+}
+
+/*두번째 버전*/
+
+.top {
+  display: flex;
+  margin: 16px;
+}
+
+.card-item .top > img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Pretendard-Regular';
+  padding-left: 16px;
+}
+
+.top-text .title {
+  font-size: 16px;
+  color: #29363d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.top-text .title + p {
+  font-size: 12px;
+  color: #5a6a72;
+}
+
+.middle a > img {
+  object-fit: cover;
+}

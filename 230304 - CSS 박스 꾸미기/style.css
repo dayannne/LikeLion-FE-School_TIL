@@ -16,14 +16,16 @@ div:nth-child(1) {
   width: 195px;
   height: 75px;
   color: white;
-  background-color: #343f50;
-  border-top: 2px solid #4a5568;
-  border-left: 2px solid #4a5568;
   box-shadow: 0px 0px 0px 2px#000;
+  background-color: #343f50;
+  border: 2px solid #4a5568;
+  border-width: 2px 0 0 2px;
+  /* border-top: 2px solid #4a5568;
+  border-left: 2px solid #4a5568; */
 }
 
 div:nth-child(2) {
-  width: 190px;
+  width: 200px;
   height: 95px;
   color: white;
   background: rgb(140, 74, 245);
@@ -33,9 +35,11 @@ div:nth-child(2) {
     rgba(99, 90, 243, 1) 60%,
     rgba(48, 109, 241, 1) 100%
   );
-  border-radius: 50px;
-  outline: 6px dashed #e6d6ff;
-  border-collapse: separate;
+  /* border-radius: 50px;
+  outline: 6px dashed #e6d6ff; */
+  border-radius: 60px;
+  border: 6px dashed #e6d6ff;
+  background-clip: padding-box;
 }
 
 div:nth-child(3) {
