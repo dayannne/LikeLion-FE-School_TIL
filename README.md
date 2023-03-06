@@ -12,7 +12,7 @@
 
 #### 03/02(목) [HTML-CSS (1)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230302%20-%20HTML-CSS%20(1))
 
-#### 03/03(금) [HTML-CSS (2)]()
+#### 03/03(금) [HTML-CSS (2)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230303%20-%20HTML-CSS%20(2))
 
 
 
