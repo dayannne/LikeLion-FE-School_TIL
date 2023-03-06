@@ -4,7 +4,7 @@
 
 ## 목차
 
-### 1주차 - [회고 ✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B0-1%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
+### 1주차 - [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B0-1%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
 
 #### 02/27(월) [Orientation & HTML/CSS 강의](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230227%20-%20OT%2C%EC%9D%B4%EB%A0%A5%EC%84%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
 
