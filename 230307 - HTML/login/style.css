@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrap {
+  width: 350px;
+}
+
+.login {
+  font-family: 'SpoqaHanSansNeo-Regular';
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 18px 16px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.btn-login {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #711bff;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  height: 40px;
+  margin: 16px 0;
+  font-weight: 500;
+  font-size: 12px;
+}
+.btn-login img {
+  height: 18px;
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+
+.login-link a {
+  text-decoration: none;
+  color: #767676;
+}
+
+.login-link a:last-child {
+  float: right;
+}
+
+.find-id,
+.btn-join {
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 1em;
+  padding-left: 1.2em;
+}
+
+.find-id {
+  background-image: url(./img//icon-lock.png);
+}
+
+.find-id + span {
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background-color: #767676;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.btn-join {
+  background-image: url(./img//icon-user.png);
+}

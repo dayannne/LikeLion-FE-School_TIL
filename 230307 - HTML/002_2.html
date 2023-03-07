@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float section</title>
+    <style>
+        * {
+            text-align: center;
+            color: #fff;
+        }
+
+        .wrap {
+            box-sizing: border-box;
+            border: 20px solid #456ea5;
+            background: #456ea5;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            width: 400px;
+
+            background: #456ea5;
+            padding: 20px;
+        }
+
+        header {
+
+            height: 100px;
+            background: #96c9f2;
+            line-height: 100px;
+            margin-bottom: 20px;
+        }
+
+        section {
+            box-sizing: border-box;
+            width: calc(70% - 20px);
+            height: 200px;
+            background: #485373;
+            float: left;
+            line-height: 200px;
+            border-right: 20px solid #456ea5;
+        }
+
+
+        aside {
+            height: 200px;
+            background: #c7f544;
+            line-height: 200px;
+            color: #000;
+        }
+
+        footer {
+            height: 100px;
+            background: #ff7769;
+            margin-top: 20px;
+            clear: both;
+            line-height: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>header</header>
+        <section>
+            <article>section > article </article>
+        </section>
+        <aside>aside</aside>
+        <footer>footer</footer>
+    </div>
+
+    <div class="box">
+        <header>header</header>
+        <section>
+            <article>section > article </article>
+        </section>
+        <aside>aside</aside>
+        <footer>footer</footer>
+    </div>
+
+
+
+</body>
+
+</html>
