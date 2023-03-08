@@ -11,18 +11,15 @@
 - **Layout** - table로 레이아웃을 짜던 때도 있었다… > frame > div > flex, grid
 - **Sections** - header, footer, nav, main, article, section, aside, hr (스타일 용 - div, span)
 - **HTML** **레이아웃 구조 짜보기**
-
-![레이아웃 짜보기.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d370b42e-318b-43ee-909a-1f5c3cb3d16a/%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83_%EC%A7%9C%EB%B3%B4%EA%B8%B0.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc0cefca-9bfe-49d3-bd71-ada2bca80312/Untitled.png)
-
+<img src="https://user-images.githubusercontent.com/105140201/223361880-47819a97-1a87-4f56-bc72-efefaccebc9a.png" width=50%>
+<img src="https://user-images.githubusercontent.com/105140201/223361924-a627292f-3f71-4162-aad2-d4a2ed2357d1.png" width=50%>
 <aside>
-💡  HTML 구조를 짜는게 너무 막연하다면 
-사용자에게 뭔가를 알려주는 소설이나 블로그 포스트,
+"💡  HTML 구조를 짜는게 너무 막연하다면 
+사용자에게 뭔가를 알려주는 소설이나<br> 블로그 포스트,
 목차를 쓴다고 생각하면서 작성해보세요🙂”
 
-ex) 레이아웃은 확실히 관공서 페이지가 잘 되어있다.
-그에 반해 삼성, 애플 페이지의 접근성은 알고보면 목차 등 마이너스가 존재!😂
+ex) 레이아웃은 확실히 관공서 페이지가 잘 되어있다.<br>
+그에 반해 삼성, 애플 페이지의 접근성은 알고보면 목차 등 마이너스가 존재!😂<br>
 → 면접 기업 웹 페이지를 분석해 입사한 사례가 있다?!
 
 </aside>
@@ -31,11 +28,13 @@ ex) 레이아웃은 확실히 관공서 페이지가 잘 되어있다.
 
 1. **float로 레이아웃 만들기**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ebb1f7b0-b2e0-4949-8fde-561649464526/Untitled.png)
+<img src="https://user-images.githubusercontent.com/105140201/223362377-0fd52698-dd46-4dc4-97aa-8d09e202804a.png" width=50%>
+
+
 
 2. **로그인 페이지 만들기**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69eef3f0-f4d3-494e-a75b-787f996e153c/Untitled.png)
+![image](https://user-images.githubusercontent.com/105140201/223362523-2c2a9976-10b1-4393-8d57-6f1faf80985f.png)
 
 - **flex**
 
@@ -89,8 +88,6 @@ ex) 레이아웃은 확실히 관공서 페이지가 잘 되어있다.
   - 1차원적 레이아웃(x축 or y축)을 위해 사
   - 부모 요소를 `flex-container` 자식 요소를 `flex-item` 이라고 부른다.
   - justify-content : `flex-start`, `flex-end`, `center`, `space-between`, `space-around`
-
-# 오늘의 문제 ⚠️
 
 # 궁금한 내용 / 부족한 내용 🧐
 
