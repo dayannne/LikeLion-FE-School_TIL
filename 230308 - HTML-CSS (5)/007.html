@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float section</title>
+    <style>
+        * {
+            text-align: center;
+            color: #fff;
+        }
+
+        .wrap {
+            box-sizing: border-box;
+            border: 20px solid #456ea5;
+            background: #456ea5;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box {
+            width: 400px;
+            background: #456ea5;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            height: 100px;
+            background: #96c9f2;
+            line-height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        section {
+            flex: 7;
+            box-sizing: border-box;
+            height: 200px;
+            background: #485373;
+            line-height: 200px;
+            border-right: 20px solid #456ea5;
+        }
+
+
+        aside {
+            flex: 3;
+            height: 200px;
+            background: #c7f544;
+            line-height: 200px;
+            color: #000;
+        }
+
+        footer {
+            height: 100px;
+            background: #ff7769;
+            margin-top: 20px;
+            line-height: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>header</header>
+        <div class="row">
+            <section>
+                <article>section > article </article>
+            </section>
+            <aside>aside</aside>
+        </div>
+
+        <footer>footer</footer>
+    </div>
+
+    <div class="box">
+        <header>header</header>
+        <div class="row">
+            <section>
+                <article>section > article </article>
+            </section>
+            <aside>aside</aside>
+        </div>
+        <footer>footer</footer>
+    </div>
+
+
+
+</body>
+
+</html>

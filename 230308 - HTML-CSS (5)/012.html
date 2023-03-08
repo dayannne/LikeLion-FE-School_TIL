@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container {
+            display: grid;
+            width: 500px;
+            height: 500px;
+            grid-template-rows: 2fr 1fr 2fr;
+            grid-template-columns: 2fr 1fr 2fr;
+            gap: 10px;
+            grid-template-areas:
+                "a a b"
+                "c d b"
+                "e f f"
+            ;
+        }
+
+        .grid-item:nth-child(1) {
+            background-color: #4169e1;
+            grid-area: a
+        }
+
+        .grid-item:nth-child(2) {
+            background-color: #ffd602;
+            grid-area: b
+        }
+
+        .grid-item:nth-child(3) {
+            background-color: #695acd;
+            grid-area: c
+        }
+
+        .grid-item:nth-child(4) {
+            background-color: #f4a361;
+            grid-area: d
+        }
+
+        .grid-item:nth-child(5) {
+            background-color: #fa8172;
+            grid-area: e
+        }
+
+        .grid-item:nth-child(6) {
+            background-color: #2e8b58;
+            grid-area: f
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    </div>
+</body>
+
+</html>
