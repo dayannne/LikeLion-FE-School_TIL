@@ -109,7 +109,7 @@ flex grid 딱 이거 둘 했는데 수업이 끝났네~ 그만큼 정말 딥했�
     
     - flex와 달리 이렇게 컨테이너 설정을 해놓고 아이템 개별로 또 width를 설정할 수 있기에 직관적이고 구분하기 쉽다.
         
-        ![Untitled](%5BTIL%20230308%5D%20-%20HTML%20CSS%20(5)%20c9876b09f7734207bee43abf42412063/Untitled%207.png)
+        ![image](https://user-images.githubusercontent.com/105140201/223687121-c22eb7bf-ad82-4e2d-9ce2-5f8e031c473f.png)
         
     - **grid-container - 단위 대신 쓰는 함수**
         - repeat()
@@ -137,8 +137,14 @@ flex grid 딱 이거 둘 했는데 수업이 끝났네~ 그만큼 정말 딥했�
         
         grid-template-areas를 사용하는 게 더 직관적이고 편하긴 하다~
         
-        - **`grid-template-areas` / `grid-area`**
-            
+     - **`grid-template-areas` / `grid-area`**
+         ```css
+         grid-template-areas:
+        "a a a"
+        "b c c"
+        "b c c"
+        "d d d";
+        ```
             [https://codepen.io/stronger-deer/pen/MWqovXw](https://codepen.io/stronger-deer/pen/MWqovXw)
             
         
