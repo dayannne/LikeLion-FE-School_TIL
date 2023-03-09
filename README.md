@@ -26,7 +26,7 @@
 
 #### 03/08(수) [HTML-CSS (5), float, flex, grid](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230308%20-%20HTML-CSS%20(5))
 
-#### 03/09(목) [HTML-CSS (6), CardUI리스트(float,flex,grid), CSS변수&함수, 피그마 특강]https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230309%20-%20HTMl-CSS%20(6))
+#### 03/09(목) [HTML-CSS (6), CardUI리스트(float,flex,grid), CSS변수&함수, 피그마 특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230309%20-%20HTMl-CSS%20(6))
 
 ### 3주차
 
