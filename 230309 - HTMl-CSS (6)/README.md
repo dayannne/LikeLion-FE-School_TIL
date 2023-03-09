@@ -10,9 +10,6 @@
 
 # ✨특강 - 피그마✨
 
----
-
-[개발자를 위한 피그마 기초](https://www.notion.so/308578cae9234d3f86059fb9ca1fbe90)
 
 ### 피그마 너 이녀셕..
 
@@ -30,8 +27,6 @@
 </aside>
 
 - **피그잼** : 웹개발 시 스토리보드를 작성할 수 있게 해 줌
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/daa2e991-511c-4758-a390-91338a6b5ea8/Untitled.png)
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71f99b1e-e1d6-402b-b1d8-2b976751a015/Untitled.png)
 - `.fig` : 저장할 수 있는 피그마 파일
 
 ### 피그마 작성 화면
@@ -73,19 +68,15 @@
 - **border-radius** : 입력하는 방향 순서가 CSS와 같다
 - **Srtoke = border**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4283accf-b859-4418-88a8-dfefd2df73fa/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c8e90d65-c8de-40e4-a637-8bcb17d37ef6/Untitled.png)
+<img src="https://user-images.githubusercontent.com/105140201/223983334-84b04ee9-ddad-4810-9d2b-a1fb473dcbe2.png" width="300px">
+<img src="https://user-images.githubusercontent.com/105140201/223983521-16c50c49-fcaa-4219-b43c-ae5945d8e883.png" width="300px">
 
 # 오늘 공부한 내용 🌼
-
----
 
 - CSS 변수와 함수 - `:root` `var()` `calc()` `min()` `max()` `clamp()`
 
 # 새로 알게된 내용 💡
 
----
 
 - CSS 변수와 함수
 
@@ -123,7 +114,7 @@
 
 - **flex 반응형 미디어 쿼리로 구현하기 -** `width: calc((100% - (24px * 3)) / 4);`
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65a84da2-0381-4fd1-a600-b4186bb4a0d0/Untitled.png)
+<img src="https://user-images.githubusercontent.com/105140201/223983823-1385941d-2a87-40a6-a284-bea7bb338cf4.png" width="500px">
 
 `width: calc((100% - (24px * 3)) / 4);` 부분이 어떤 원리로 계산된 건지 이해가 되지 않았는데,
 
@@ -148,8 +139,8 @@ gap에만 값을 넣어보기도 하고, width 값을 수정해 보면서 차이
 </aside>
 
 - **clamp 사용 방법**
+<img src="https://user-images.githubusercontent.com/105140201/223983918-c8c798b1-3452-4697-b47e-0ba03241a305.png" height="200px">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0f0621b-7ad8-4384-8a92-e6ccdf409076/Untitled.png)
 
 <aside>
 💡 폰트를 반응형으로 처리하기 위해서
