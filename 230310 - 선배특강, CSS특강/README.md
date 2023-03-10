@@ -127,7 +127,7 @@
 
 <img src="https://user-images.githubusercontent.com/105140201/224293038-c603230c-9b1c-4341-9ed3-6db38944497c.png" height="200px">
 
-<img src="https://user-images.githubusercontent.com/105140201/224293185-1958e7d5-bb56-4654-b7be-3f967ee17977.png" width="300px">
+<img src="https://user-images.githubusercontent.com/105140201/224293185-1958e7d5-bb56-4654-b7be-3f967ee17977.png" height="300px">
 
 .wow.wow.wow 처럼 반복해 불러줘도 가중치가 더해질 수 있다.
 
