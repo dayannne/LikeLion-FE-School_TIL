@@ -28,6 +28,8 @@
 
 #### 03/09(목) [HTML-CSS (6), CardUI리스트(float,flex,grid), CSS변수&함수, 피그마 특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230309%20-%20HTMl-CSS%20(6))
 
+#### 03/10(금) [선배림 특강, CSS](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230310%20-%20%EC%84%A0%EB%B0%B0%ED%8A%B9%EA%B0%95%2C%20CSS%ED%8A%B9%EA%B0%95)
+
 ### 3주차
 
 ### 4주차
