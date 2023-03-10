@@ -10,24 +10,6 @@
 
 # 선배림 특강 - 멋사 200% 활용 설명 😎
 
----
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4c328d78-a9e1-4fa6-9d31-d58c7ea66dc4/Untitled.png)
-
-![1번 8번을 뺀 모두가 지원동기였다는 선배림😂 나는….1~8 전부..?](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1463b636-2f89-46bc-b6c1-f723c438f286/Untitled.png)
-
-1번 8번을 뺀 모두가 지원동기였다는 선배림😂 나는….1~8 전부..?
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93a4ab90-3d4c-4c02-8778-d844940c2bbe/Untitled.png)
-
-이력서는 틀이라도 미리 만들어 놓을 것 경험, 학력, 나를 잘 나타내는 소개
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4cd8bd87-2b82-4fd8-9cac-a1bf62a48114/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9415c4d3-3ac7-43ef-bd1b-eba0db5ec2a8/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b420c80-3d73-42af-b8ad-227e4eee23a9/Untitled.png)
-
 <aside>
 💡 저는 불안함, 불안감이 느껴지는게 더 잘하고 싶은 마음에 생긴다고 생각해요! 그런 마음이 들 때 마다 "와 나 이거 잘하고 싶구나!"라는 생각을 하면서 보다 긍정적으로 풀어가셨으면 좋겠습니당
 
@@ -43,9 +25,7 @@
 
 개인적인 의견은 단순히 수 있다라고 말하기 보다 내 역량(기술, 경험)을 근거로 회사의 어떤 부분에 기여할 수 있다고 기술하면 좋은거 같습니다! 근데 막상 써보려면 막막해지는 경우가 있는데 그래서 많이 써보시고 피드백 받으시고 다시 써보셨음 좋겠습니다!!
 
-# CSS 특강 - 빔캠프 이종사
-
----
+# CSS 특강 - 빔캠프 이종찬 강사림
 
 ### Cascading
 
@@ -55,7 +35,7 @@
 
 - 웹페이지의 암묵적인 틀의 규칙, 머리가슴배 - **Header, Contents, Footer**
 - 처음부터 HTMl 마크업을 왕창 할 생각을 버리자.
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d0af3677-765c-4e24-b13e-45f85283ca06/Untitled.png)
+<img src="https://user-images.githubusercontent.com/105140201/224292212-dc2aede4-9854-4308-850f-6e83988c04a2.png" width="300px">
   이 정도로 충분하다.
 
 ### **CSS 기본특징**
@@ -67,7 +47,9 @@
 - CSS는 프로퍼티에 초기값, **initial value**가 설정되어 있다.
   - `background-color:transparent;` - 배경색
   - `width:auto;` - 해당 요소의 직계 부모가 제공해주는 부모의 Contents 영역(**Containing Block)**의 크기만큼 채운다 (width랑은 다름)
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12160456-c385-4a5f-8b79-0d67a6cd1da8/Untitled.png)
+  
+    <img src="https://user-images.githubusercontent.com/105140201/224292384-082f1032-01fb-4926-b751-03a8c88f1381.png" height="100px">
+    
       <aside>
       💡 `width` 
       넓이, 사용 가능한 공간을 채운다는 의미로, `width:400px`를 주면 사용가능한 공간을 전체 공간-400px만큼 남긴다
@@ -88,7 +70,8 @@
 
 ### Profile 만들기 작업 순서
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcd735f1-fe53-4ca5-be4c-b835da39d42f/Untitled.png)
+<img src="https://user-images.githubusercontent.com/105140201/224292613-08ec2a39-9255-42e7-9f34-e70b49279466.png" width="400px">
+
 
 1. 헤더/콘텐츠/푸터 HTML 마크업
    - 가장 큰 덩어리, `width, margin,border,background` 설정
@@ -142,9 +125,9 @@
 
 명시도는 주어진 CSS 선언에 적용되는 가중치(weight)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6d2e272b-3c1e-4828-ae36-964c468e0955/Untitled.png)
+<img src="https://user-images.githubusercontent.com/105140201/224293038-c603230c-9b1c-4341-9ed3-6db38944497c.png" height="200px">
 
-![.wow.wow.wow 처럼 반복해 불러줘도 가중치가 더해질 수 있다.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0171f061-25d0-4d19-bbcf-b99201d88371/Untitled.png)
+<img src="https://user-images.githubusercontent.com/105140201/224293185-1958e7d5-bb56-4654-b7be-3f967ee17977.png" width="300px">
 
 .wow.wow.wow 처럼 반복해 불러줘도 가중치가 더해질 수 있다.
 
