@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-style: normal;
+}
+
+body {
+  font-style: 'Pretendard';
+}
+
+[class^='btn'] {
+  width: 88px;
+  height: 32px;
+  color: #cbd5df;
+  background-color: #343f50;
+  box-shadow: inset 1px 1px #4a5568;
+  font-size: 12px;
+
+  border: 1px solid #1a202c;
+}
+
+[class^='btn']:not(:disabled):hover {
+  text-decoration: underline;
+  color: white;
+}
+.btn:active {
+  box-shadow: inset 1px 1px #262f3e;
+  text-decoration: underline;
+}
+.btn:disabled {
+  border: 1px solid #343e4e;
+  background: #3a4556;
+  box-shadow: none;
+  color: #4a5568;
+}
+
+.btn-positive {
+  color: #439aff;
+}
+
+.btn-positive:hover {
+  background: #439aff;
+  box-shadow: inset 1px 1px #73b4ff;
+  border: 1px solid #439aff;
+}
+
+.btn-positive:active {
+  box-shadow: inset 1px 1px #3b78be;
+}
+
+.btn-negative {
+  color: #eb5757;
+}
+
+.btn-negative:hover {
+  background: #eb5757;
+  box-shadow: inset 1px 1px #fd6f6f;
+  border: 1px solid #eb5757;
+}
+
+.btn-negative:active {
+  box-shadow: inset 1px 1px #d94242;
+}
