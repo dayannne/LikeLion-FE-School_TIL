@@ -18,7 +18,7 @@
 
 
 
-### 2주차
+### 2주차 [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B02%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
 
 #### 03/06(월) [HTML-CSS (3), 카드 UI 만들기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230306%20-%20HTML-CSS%20(3)%2C%20%EC%B9%B4%EB%93%9C%20UI%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
 
@@ -31,5 +31,6 @@
 #### 03/10(금) [선배림 특강, CSS 특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230310%20-%20%EC%84%A0%EB%B0%B0%ED%8A%B9%EA%B0%95%2C%20CSS%ED%8A%B9%EA%B0%95)
 
 ### 3주차
+#### 03/13(월) [CSS(1) button, transform, animation]()
 
 ### 4주차
