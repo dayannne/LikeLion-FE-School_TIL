@@ -65,7 +65,7 @@
     - `:active` - 버튼을 클릭해 계속 누르고 있는 동안 활성화
     - `:visited` - 사용자가 이미 방문한 링크일 경우 해당 상태에 만족
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78b9b2e4-13ad-4cd0-bf28-63e2fed3819c/Untitled.png)
+        ![image](https://user-images.githubusercontent.com/105140201/224854912-db17c233-da8d-40b2-b0f7-c27bd599a8f9.png)
         
     - `isabled` - 비활성화 된 요소를 선택
     - `:hover` - 마우스 커서를 요소에 올려두었을 때
