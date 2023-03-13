@@ -103,7 +103,7 @@
     
 - 실습 - 버튼 만들기
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71a85da5-0f98-48dc-a227-5db46f4a1367/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/105140201/224854821-d7155646-4ce2-46cb-8bb6-7f15c15d601a.png)
     
     박스 안에 줄 하나 더 만들 때 `box-shadow: inset | offset-x | offset-y | color`
     
@@ -130,7 +130,7 @@
 - **animation**
     - transition vs animation : `transition`의 경우 요소의 상태가 변경되어야 애니메이션을 실행할 수 있지만, `animation` 속성은 요소의 상태 변화와 관계없이 애니메이션을 실행할 수 있습니다.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/abbad56c-106c-42c4-91aa-c95ae5a40a7c/Untitled.png)
+        ![image](https://user-images.githubusercontent.com/105140201/224854854-b913d8d2-52e3-450f-9d84-028db061929b.png)
         
 
 # 궁금한 내용 / 부족한 내용 🧐
