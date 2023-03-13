@@ -31,6 +31,6 @@
 #### 03/10(금) [선배림 특강, CSS 특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230310%20-%20%EC%84%A0%EB%B0%B0%ED%8A%B9%EA%B0%95%2C%20CSS%ED%8A%B9%EA%B0%95)
 
 ### 3주차
-#### 03/13(월) [CSS(1) button, transform, animation]()
+#### 03/13(월) [CSS(1) button, 선택자, transform, transition, animation]()
 
 ### 4주차
