@@ -1,0 +1,72 @@
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.btn {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.line {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.line span {
+  display: block; /*span은 원래 inline이다*/
+  width: 100%;
+  /*width값에 부모요소의 크기를 주기 때문에 display를 block으로 바꾼다.*/
+  height: 2px;
+  background: black;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+.line span:nth-child(1) {
+  background-color: burlywood;
+  top: 15%;
+}
+
+.line span:nth-child(2) {
+  top: 50%; /*부모 기준 가운데*/
+  transform: translateY(-50%);
+}
+
+.line span:nth-child(3) {
+  background-color: gold;
+  bottom: 15%;
+}
+
+.btn:hover .line {
+  transform: rotate(45deg);
+}
+
+.btn:active .line {
+  transform: rotate(180deg);
+}
+
+.btn:hover .line span:nth-child(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.btn:hover .line span:nth-child(2) {
+  opacity: 0;
+}
+
+.btn:hover .line span:nth-child(3) {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
