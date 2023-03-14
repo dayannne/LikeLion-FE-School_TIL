@@ -65,7 +65,7 @@
     - `:active` - 버튼을 클릭해 계속 누르고 있는 동안 활성화
     - `:visited` - 사용자가 이미 방문한 링크일 경우 해당 상태에 만족
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78b9b2e4-13ad-4cd0-bf28-63e2fed3819c/Untitled.png)
+        ![image](https://user-images.githubusercontent.com/105140201/224854912-db17c233-da8d-40b2-b0f7-c27bd599a8f9.png)
         
     - `isabled` - 비활성화 된 요소를 선택
     - `:hover` - 마우스 커서를 요소에 올려두었을 때
@@ -103,7 +103,7 @@
     
 - 실습 - 버튼 만들기
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71a85da5-0f98-48dc-a227-5db46f4a1367/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/105140201/224854821-d7155646-4ce2-46cb-8bb6-7f15c15d601a.png)
     
     박스 안에 줄 하나 더 만들 때 `box-shadow: inset | offset-x | offset-y | color`
     
@@ -130,7 +130,7 @@
 - **animation**
     - transition vs animation : `transition`의 경우 요소의 상태가 변경되어야 애니메이션을 실행할 수 있지만, `animation` 속성은 요소의 상태 변화와 관계없이 애니메이션을 실행할 수 있습니다.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/abbad56c-106c-42c4-91aa-c95ae5a40a7c/Untitled.png)
+        ![image](https://user-images.githubusercontent.com/105140201/224854854-b913d8d2-52e3-450f-9d84-028db061929b.png)
         
 
 # 궁금한 내용 / 부족한 내용 🧐
