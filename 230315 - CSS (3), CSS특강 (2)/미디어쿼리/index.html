@@ -8,8 +8,9 @@
     <title>미디어 쿼리</title>
     <style>
         @font-face {
-            font-family: 'Spoqa Han Sans Neo';
+            font-family: 'SpoqaHanSansNeo-Regular';
             src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+            font-weight: normal;
             font-style: normal;
         }
 
@@ -20,7 +21,7 @@
         }
 
         body {
-            font-family: 'Spoqa Han Sans Neo';
+            font-family: 'SpoqaHanSansNeo-Regular';
         }
 
         .container {
@@ -28,25 +29,49 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
+            position: absolute;
+            width: 90%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h1 {
+            font-weight: 400;
         }
 
         .link {
             display: flex;
             flex-direction: column;
+            margin-left: 50px;
+
+        }
+
+        .card {
+            width: 120%;
+            height: 280px;
+            box-sizing: border-box;
+            margin: 30px;
+            border-radius: 10px;
         }
 
         a {
-            display: block;
-            box-sizing: border-box;
-            width: 486px;
-            height: 280px;
+            display: inline-block;
             text-decoration: none;
             color: white;
             background-repeat: no-repeat;
             background-size: contain;
-            border-radius: 10px;
-            margin: 30px;
 
+
+
+        }
+
+        .card:nth-child(1) {
+            background-image: url('./img/1.svg');
+        }
+
+        .card:nth-child(2) {
+            background-image: url('./img/2.svg');
         }
 
         a h2 {
@@ -55,27 +80,22 @@
             font-size: 30px;
         }
 
-        a p {
-
-            bottom: 10%;
-            right: 15%;
+        .more {
+            position: relative;
             font-weight: 400;
             font-size: 16px;
+            background-image: url('./img/arrow.svg') no-repeat 0.8em center/ 2em;
+            background-position: 21% 50%;
 
         }
 
-        a p::after {
-            content: '';
-            background-image: url('./img/arrow.svg') no-repeat 0.8em right/ 2em;
+        a p img {
+            vertical-align: baseline;
+            margin-left: 10px;
         }
 
-        a:nth-child(1) {
-            background-image: url('./img/1.svg');
-        }
 
-        a:nth-child(2) {
-            background-image: url('./img/2.svg');
-        }
+
 
         @media (max-width: 768px) {
             .container {
@@ -105,14 +125,20 @@
             <h1>위니브에서<br><strong>함께 콘텐츠 제작하실<br>분을 모십니다.</strong></h1>
             <p>위니브는 ICT 연구 및 (코딩)교육 기관이며<br>다양한 사회 공헌 활동을 하고 있습니다.</p>
         </div>
-        <div class="link"><a href="#">
-                <h2>IT 교육 영상 콘텐츠</h2>
-                <p>바로가기</p>
-            </a>
-            <a href="#">
-                <h2>IT 교육 영상 콘텐츠</h2>
-                <p>바로가기</p>
-            </a>
+        <div class="link">
+            <article class="card">
+                <a href="#">
+                    <h2>IT 교육 영상 콘텐츠</h2>
+                    <p class="more">바로가기</p>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#">
+                    <h2>IT 교육 영상 콘텐츠</h2>
+                    <p class="more">바로가기</p>
+                </a>
+            </article>
+
         </div>
     </div>
 
