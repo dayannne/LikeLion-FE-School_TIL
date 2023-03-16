@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img</title>
+
+</head>
+
+<body>
+    <picture>
+        <source srcset="images/rabbit_500.png" media="(min-width:960px)">
+        <source srcset="images/rabbit_300.png" media="(min-width:620px)">
+        <source srcset="images/rabbit_150.png 150w">
+        <img src="./images/rabbit_500.png" alt="귀여운 생명체">
+    </picture>
+    <!-- <img srcset="images/rabbit_500.png 500w, images/rabbit_300.png 300w, images/rabbit_150.png 150w" sizes="(min-width: 960px) 250px,
+			 (min-width: 620px) 150px,
+			 300px"> -->
+
+</body>
+
+</html>
