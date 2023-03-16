@@ -15,13 +15,11 @@ img 웹접근성을 위한 srcset속성과 picture태그, 그리고 perspective(
 
 # 오늘 공부한 내용 🌼
 
-[src (source)](https://www.notion.so/src-source-2a6d975cdf8f43db97ca6ec2cf787d1c)
-
-[18. perspective (원근법)](https://www.notion.so/18-perspective-d199ba8c3711485f9cdf678e7abb78a0)
-
 - `<img>`태그 - srcset
 - <picture>
 - perspective (원근법)
+- 미디어 쿼리 만들기 실습
+- 영화 목록 
 
 # 새로 알게된 내용 💡
 
