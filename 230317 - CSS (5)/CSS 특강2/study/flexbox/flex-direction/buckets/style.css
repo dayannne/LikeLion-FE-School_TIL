@@ -1,0 +1,20 @@
+body {
+    background-color: #ddd;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.item {
+    background-color: seashell;
+    color: orangered;
+    font-weight: bold;
+    border: 4px solid salmon;
+    padding: 20px;
+    border-radius: 10px;
+}
