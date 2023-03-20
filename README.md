@@ -44,4 +44,7 @@
 >negative margin, margin:auto, width:auto, position, 가상 클래스
 
 
-### 4주차
+### 4주차기
+#### 03/20(월) [CSS (6) 검색 엔진 최적화, favicon, 영화 목록 만들기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230320%20-%20CSS%20(6))
+>검색 엔진 최적화, favicon, 영화 목록 만들기
+
