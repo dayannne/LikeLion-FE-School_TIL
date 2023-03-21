@@ -1,3 +1,5 @@
+## 230321
+
 # 🌳 오늘 하루 정리
 
 회고조로 오랜만에 모여 이야기 나누는 시간을 가졌다.
@@ -6,11 +8,10 @@
 
 지난 주 열렸던 CSS 캐릭터 만들기 경진대회에서 **최우수상**을 받았다…!!!!!!!
 
-![2__.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c746eee-6e1d-426f-be0d-b044bd0da5e4/2__.png)
+<img src="https://user-images.githubusercontent.com/105140201/226606305-6ae3eb85-2a49-42b8-8fb8-88f0e5283e46.png" width="500px">
+<img src="https://user-images.githubusercontent.com/105140201/226606538-e871305d-bf33-4816-8aa3-169c4bac7b62.png" width="500px">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ac608aa-be5f-4945-957f-9d954d035ce0/Untitled.png)
-
-내 큐트 뽀짝 **쿼카** 너무 기특해 우째….진짜 너무 기뻤다👼👼👼👼👼👼
+My 스윗 큐트 뽀짝 **쿼카** 너무 기특해 우째….진짜 기뻤다👼👼👼👼👼👼
 
 그리고 오늘로 혜진 강사님과의 수업 끝….멋쟁이사자처럼에 들어온 것으로도 하나의 허들을 이미 넘었고, HTML/CSS 배울 수 있는 것은 다 배웠고 ‘예전에 했던 것 같은데?’ 하고 구글링 하는 정도로도 성공한 것이라고 너무 힘 들이지 말고 조급해 하지 않길 바란다는 격려의 말씀을 해 주셨다.
 
