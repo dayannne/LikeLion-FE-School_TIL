@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+/* reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+li {
+  list-style: none;
+}
+body,
+p,
+h1,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.notice {
+}
+
+.notice-title {
+  font-size: 30px;
+}
+
+.notice-list {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+}
+.notice-list li {
+  border-bottom: 1px solid #eee;
+}
+.more {
+}
