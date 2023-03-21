@@ -75,11 +75,12 @@ My 스윗 큐트 뽀짝 **쿼카** 너무 기특해 우째….진짜 기뻤다�
 ```
 
 - input에 집어넣는 min, max로 금액과 단위 설정하기
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/243b18e3-042d-41f9-8752-f03ef7b5a1e4/Untitled.png)
+![image](https://user-images.githubusercontent.com/105140201/226606919-53931bf3-9f2b-47ff-9e91-14928730fb1c.png)
+
   1000부터 천 단위로 입력할 수 있다.
 - 박스 안 요소 양쪽 끝에 배치하기 `justify-content: space-between;`
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e8a081b5-de07-4347-9972-c3cb03c9584f/Untitled.png)
+![image](https://user-images.githubusercontent.com/105140201/226606992-4f24d05a-c283-44dc-b268-03f5ecc6af17.png)
 
 - input이 체크되었을 때 label도 함께 스타일을 주는 방법 - `인접 형제 선택자`
 
