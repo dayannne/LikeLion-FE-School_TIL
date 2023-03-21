@@ -37,12 +37,16 @@
 
 - 범위 이미지 주기
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c96c1f30-b605-4574-9567-9a1476b51fb8/Untitled.png)
+![image](https://user-images.githubusercontent.com/105140201/226617926-415fb51b-b666-4d69-8ef0-9089c5718a06.png)
+![image](https://user-images.githubusercontent.com/105140201/226618080-d8fdd43c-9e35-47dd-980b-49fba532ffda.png)
+
 
 # 오늘의 문제 ⚠️
 
 - 배경 이미지를 가상요소로 위치까지 잘 설정했는데 나타나질 않는다?
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ec0b49e6-3b16-450d-b3cc-1f924bf02c6a/Untitled.png)
+![image](https://user-images.githubusercontent.com/105140201/226617976-3c6fd90b-5f2b-4c0a-8f86-a79ff76bcb25.png)
+![image](https://user-images.githubusercontent.com/105140201/226618024-7831c637-050d-4aa2-91f4-ac4b00f317a8.png)
+
 
 `display:inline-block` 을 넣어보고 `background`단축 속성 내 `position`설정 체크할 것
