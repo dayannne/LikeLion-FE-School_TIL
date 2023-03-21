@@ -31,7 +31,7 @@
 #### 03/10(금) [선배림 특강, CSS 특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230310%20-%20%EC%84%A0%EB%B0%B0%ED%8A%B9%EA%B0%95%2C%20CSS%ED%8A%B9%EA%B0%95)
 >초기값(initial value) • 선택자(selector) • 상속(inheritrance) • 명시도(Selector Secificity) 
 
-### 3주차
+### 3주차 [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%82%AC-%ED%9A%8C%EA%B3%A0)
 #### 03/13(월) [CSS (1) button, 선택자, transform, transition, animation](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230313%20-%20CSS%20(1))
 ><버튼 만들기> • transform • transition • animation • CSS 선택자(동적가상, 속성) 
 #### 03/14(화) [CSS (2) 햄버거 메뉴 만들기, table, viedo, audio, iframe, form](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230314%20-%20CSS%20(2))
@@ -45,3 +45,6 @@
 
 
 ### 4주차
+#### 03/20(월) [CSS (6) 검색 엔진 최적화, favicon, 영화 목록 만들기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230320%20-%20CSS%20(6))
+>검색 엔진 최적화, favicon, 영화 목록 만들기
+
