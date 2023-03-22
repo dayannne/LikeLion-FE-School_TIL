@@ -59,7 +59,7 @@ button {
   각 섹션 지정 시 섹션마다의 헤더가 되므로 상관 없다
 - **실습에서 `flex-basis:26%`이 충분히 표현이 안된 이유?**
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1efa81c0-edd8-43db-8a7d-3af6157333af/Untitled.png)
+  ![image](https://user-images.githubusercontent.com/105140201/226933993-b2849e6c-2623-4eb2-86df-b2093f87dc27.png)
 
   flex-item들은 flex-shrink라는 속성이 기본값 1로 이미 지정된 상태로,
 
@@ -69,7 +69,7 @@ button {
 
 - **리스트 스타일을 가상요소로 만들어 주려면?**
   flex로 정렬해 하는 것도 좋지만 비추천, 좋은 방법은 **`text-indent`**!
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5eeef28f-93b3-4876-b23c-dbb86f522aa6/Untitled.png)
+  ![image](https://user-images.githubusercontent.com/105140201/226934083-fcf67c79-36a5-4d3d-969b-61bc702a905f.png)
   ```css
   .card-text ul li {
     list-style: none;
