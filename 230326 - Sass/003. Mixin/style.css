@@ -1,0 +1,15 @@
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background: aqua;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background: chocolate;
+}/*# sourceMappingURL=style.css.map */

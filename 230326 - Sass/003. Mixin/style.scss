@@ -1,0 +1,16 @@
+@mixin center-xy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.one {
+  @include center-xy; // 정의한 center-xy mixin을 사용하여 코드 한줄이면 끝!
+  background: aqua;
+}
+
+.two {
+  @include center-xy;
+  background: chocolate;
+}
