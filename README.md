@@ -17,7 +17,7 @@
 #### 03/04(토) [박스 꾸미기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230304%20-%20CSS%20%EB%B0%95%EC%8A%A4%20%EA%BE%B8%EB%AF%B8%EA%B8%B0)
 
 
-### 2주차 [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B02%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
+### 2주차 - [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B02%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
 
 #### 03/06(월) [HTML-CSS (3), 카드 UI 만들기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230306%20-%20HTML-CSS%20(3)%2C%20%EC%B9%B4%EB%93%9C%20UI%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
 >background • display속성 • <img> • position속성
@@ -31,7 +31,7 @@
 #### 03/10(금) [선배림 특강, CSS 특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230310%20-%20%EC%84%A0%EB%B0%B0%ED%8A%B9%EA%B0%95%2C%20CSS%ED%8A%B9%EA%B0%95)
 >초기값(initial value) • 선택자(selector) • 상속(inheritrance) • 명시도(Selector Secificity) 
 
-### 3주차 [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%82%AC-%ED%9A%8C%EA%B3%A0)
+### 3주차 - [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%82%AC-%ED%9A%8C%EA%B3%A0)
 #### 03/13(월) [CSS (1) button, 선택자, transform, transition, animation](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230313%20-%20CSS%20(1))
 ><버튼 만들기> • transform • transition • animation • CSS 선택자(동적가상, 속성) 
 #### 03/14(화) [CSS (2) 햄버거 메뉴 만들기, table, viedo, audio, iframe, form](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230314%20-%20CSS%20(2))
@@ -44,7 +44,12 @@
 >negative margin, margin:auto, width:auto, position, 가상 클래스
 
 
-### 4주차 [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B0-4%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
+### 4주차 - [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B0-4%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
 #### 03/20(월) [CSS (6) 검색 엔진 최적화, favicon, 영화 목록 만들기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230320%20-%20CSS%20(6))
+>검색 엔진 최적화 • favicon • 영화 목록 만들기
+#### 03/21(화) [CSS (7)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230320%20-%20CSS%20(6))
+>밴딩머신 만들기 • 커스텀 폼 만들기
+#### 03/20(월) [CSS (6) 검색 엔진 최적화, favicon, 영화 목록 만들기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230320%20-%20CSS%20(6))
+>검색 엔진 최적화, favicon, 영화 목록 만들기#### 03/20(월) [CSS (6) 검색 엔진 최적화, favicon, 영화 목록 만들기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230320%20-%20CSS%20(6))
+>검색 엔진 최적화, favicon, 영화 목록 만들기#### 03/20(월) [CSS (6) 검색 엔진 최적화, favicon, 영화 목록 만들기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230320%20-%20CSS%20(6))
 >검색 엔진 최적화, favicon, 영화 목록 만들기
-
