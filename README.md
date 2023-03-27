@@ -53,5 +53,11 @@
 >검색 엔진 최적화 • favicon • 영화 목록 만들기
 #### 03/23(목) [CSS 부트스트랩](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230323%20-%20%EB%B6%80%ED%8A%B8%EC%8A%A4%ED%8A%B8%EB%9E%A9)
 >코딩 컨벤션 • 부트스트랩
-#### 03/25() [HTML/CSS 주말특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230325%20-%20%EC%A3%BC%EB%A7%90%20%ED%8A%B9%EA%B0%95)
+#### 03/25(토) [HTML/CSS 주말특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230325%20-%20%EC%A3%BC%EB%A7%90%20%ED%8A%B9%EA%B0%95)
 >시멘틱 태그 • 마진 컬랩싱 • position & transform
+
+### 5주차
+#### 03/27(월) [Sass](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230327%20-%20Sass/%EC%88%98%EC%97%85%20%EC%9E%90%EB%A3%8C)
+>주석 • 중첩(Nesting) • 변수 • Mixin
+
+
