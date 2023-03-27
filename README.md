@@ -36,11 +36,11 @@
 ><버튼 만들기> • transform • transition • animation • CSS 선택자(동적가상, 속성) 
 #### 03/14(화) [CSS (2) 햄버거 메뉴 만들기, table, viedo, audio, iframe, form](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230314%20-%20CSS%20(2))
 >`햄버거 메뉴 만들기` • `table` • viedo&audio • iframe • form
-#### 03/15(수) [CSS (3) 로그인 페이지 만들기, 미디어쿼리, CSS 특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230315%20-%20CSS%20(3)%2C%20CSS%ED%8A%B9%EA%B0%95%20(2))
+#### 03/15(수) [CSS (3)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230315%20-%20CSS%20(3)%2C%20CSS%ED%8A%B9%EA%B0%95%20(2))
 >CSS특강 • <캐릭터 만들기> • <로그인 페이지 구현 - 회원가입, 메인> • 미디어 쿼리
-#### 03/16(목) [CSS (4) `img`- srcset, `picture`, perspective (원근법), 미디어 쿼리 만들기 실습, 영화 목록](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230316%20-%20CSS%20(4))
+#### 03/16(목) [CSS (4)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230316%20-%20CSS%20(4))
 ><이미지> - srcset • `<picture>` • perspective (원근법) • <미디어쿼리 실습> • 영화목록 구조짜기
-#### 03/17(금) [CSS (1) button, 선택자, transform, transition, animation](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230317%20-%20CSS%20(5)/CSS%20%ED%8A%B9%EA%B0%952)
+#### 03/17(금) [CSS (5) button, 선택자, transform, transition, animation](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230317%20-%20CSS%20(5)/CSS%20%ED%8A%B9%EA%B0%952)
 >negative margin, margin:auto, width:auto, position, 가상 클래스
 
 
