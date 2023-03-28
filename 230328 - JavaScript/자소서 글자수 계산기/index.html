@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자소서 글자수 계산기</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        h1 {
+            margin-top: 30px;
+        }
+
+        #count {
+            float: right;
+        }
+    </style>
+</head>
+
+<body class='container'>
+    <h1>자기소개</h1>
+    <textarea onkeydown="counter()" class="form-control" rows="3" id="jasoseol"></textarea>
+    <span id="count">(0/200)</span>
+    <script>
+
+        function counter() {
+            let content = document.getElementById("jasoseol").value;
+            if (content.length > 200) {
+                content = content.substring(0, 200);
+                document.getElementById('jasoseol').value = content;
+            }
+            document.getElementById('count').innerHTML = "(" + content.length + "/200)"
+        }
+    </script>
+</body>
+
+</html>

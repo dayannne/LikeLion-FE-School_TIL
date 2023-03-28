@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <h1>자기소개</h1>
+    <textarea class="form-control" rows="3" id="jasoseol">저는 인성 문제가 없습니다.</textarea>
+    <span id="count">(0/200)</span>
+    <script>
+        var content = document.getElementById('jasoseol').value;
+        document.getElementById('count').innerHTML = "(" + content.length + "/200)"
+    </script>
+</body>
+
+</html>
