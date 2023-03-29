@@ -101,11 +101,11 @@ line-height: 2rem; /* 32px */
 
 - `flex`
 - `flex flex-col`
-  ![image](https://file.notion.so/f/s/9ace331d-4109-4647-8259-6d5c3e818f76/Untitled.png?id=7407f7d8-d01a-4bfc-bb5a-c8b099249b7a&table=block&spaceId=3317110b-440d-483f-947a-2d0877613e61&expirationTimestamp=1680176484062&signature=iKVzGw9zIuDU588yY5fBJUEo4n_U5b1l8Fp_0MBzuPc&downloadName=Untitled.png)
+  ![image](https://user-images.githubusercontent.com/105140201/228554488-cee2b859-330e-4018-8e19-12cf518968f4.png)
 - `flex flex-wrap`
-  ![image](https://file.notion.so/f/s/1ddbff6b-93ea-49de-8ad6-9e49826040c8/Untitled.png?id=512a534e-f0f8-4404-9ba1-dbc898bd6a62&table=block&spaceId=3317110b-440d-483f-947a-2d0877613e61&expirationTimestamp=1680176460321&signature=wSDs1O1gloWQGZeR6WU-UYZhtXjdzF0uCnbPjwF26bM&downloadName=Untitled.png)
+  ![image](https://user-images.githubusercontent.com/105140201/228554551-5a4ab13a-c9f0-4682-acca-aef14e22dbb5.png)
 - `flex flex-row-reverse`
-  ![image](https://file.notion.so/f/s/5cdf7d8f-0662-4c36-bd1e-a92b4606ee33/Untitled.png?id=7ef1ca3b-3d4a-44f1-8562-81958ab632db&table=block&spaceId=3317110b-440d-483f-947a-2d0877613e61&expirationTimestamp=1680176410297&signature=oMMorJn98xIr543QPwhO7T6KyOC46yFrW3FgEjQPnH8&downloadName=Untitled.png)
+  ![image](https://user-images.githubusercontent.com/105140201/228554609-89b68219-989f-4272-8053-9b00ded62663.png)
 - gap 설정 - `gap-6`
 
 ```css
