@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>width에 대하여</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <h1>Max-width: 1024px</h1>
+    <div class="wrap">
+        <div class="all min">min-width</div>
+        <div class="all wid">width</div>
+        <div class="all max">max-width</div>
+    </div>
+
+    <script>
+        /*const divs = document.querySelectorAll(".all"); // 배열
+        console.log(divs)
+        divs.forEach((div) => {
+            const p = document.createElement("p");
+            div.appendChild(p);
+
+            function updateWidth() {
+                p.textContent = `현재 너비값은 ${div.clientWidth}px`;
+            }
+
+            updateWidth();
+
+            window.addEventListener("resize", () => {
+                div.removeChild(p);
+                const newP = document.createElement("p");
+                div.appendChild(newP);
+                updateWidth();
+            });
+        });*/
+        const divs = document.querySelectorAll(".all");
+        divs.forEach((div) => {
+            const p = document.createElement("p");
+            div.appendChild(p);
+
+            function updateWidth() {
+                p.textContent = `현재 너비값은 ${div.clientWidth}px`;
+            }
+
+            window.addEventListener("resize", () => {
+                updateWidth();
+            });
+
+            updateWidth();
+        });
+    </script>
+</body>
+
+</html>

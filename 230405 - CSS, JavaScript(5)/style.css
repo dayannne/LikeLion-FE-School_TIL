@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+span {
+  text-align: center;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 30px;
+  color: blue;
+}
+
+.wrap {
+  margin: auto;
+  max-width: 1024px;
+  box-sizing: border-box;
+  border: 2px solid orangered;
+  padding: 40px;
+}
+
+.min,
+.wid,
+.max {
+  height: 250px;
+  margin: auto;
+  font-size: 32px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.min {
+  min-width: 400px;
+  background: yellow;
+}
+
+.wid {
+  width: 600px;
+  background: green;
+}
+
+.max {
+  max-width: 500px;
+  background: pink;
+}
