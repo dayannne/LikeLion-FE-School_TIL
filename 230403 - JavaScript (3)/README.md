@@ -1,8 +1,11 @@
 # 🌳 오늘 하루 정리
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fc7399ec-5b2b-4b31-bd26-6544aeafeb5c/Untitled.png)
+- 초급자 - 혼자 공부하는 자바스크립트
+- 중급자 - 코어 자바스크립트
+- 고급자 - 딥다이브
 
-강사님께서 자바스크립트 도서로 이렇게 세권의 책을 추천해 주셨는데 어쩌다보니 저 모든 책을 다 갖고 있는 나…ㅋㅋㅋㅋ
+강사님께서 자바스크립트 도서로 이렇게 세권의 책을 추천해 주셨는데 어쩌다보니 저 모든 책을 다 갖고 있는 나…ㅎㅎㅎ
+어후 딥다이브를 계속 물고 늘어졌다면 큰일날 뻔했다...
 
 특히 혼공자 강의를 날짜별로 하나씩 들으면 자바스크립트 수업 맞춰서 끝낼 수 있다는 말을 듣고 어떻게든 시간내서 혼자 매일매일 하기로 했다~조금이라도 편하게 강의를 따라가기 위해서는 독학을 열심히 해야겠다고 생각했다. 하지만 벌서 하루가 지나가네요- 내일 화이팅….
 
@@ -26,7 +29,7 @@
 
 - ‘재선언’이 가능하다는 것이 문제 (var를 붙여 또 선언하면 덮어 씌워버린다.)
 - `let`은 재선언이 불가하다는 점에서 유용하다.
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad057d74-24ba-49a4-9436-dcbe8e6a908c/Untitled.png)
+  ![image](https://user-images.githubusercontent.com/105140201/229547911-44fa9b64-ee7d-4524-8e10-f31b57a8e0d7.png)
 
 ## number
 
@@ -135,7 +138,7 @@ Infinity < 100 // => false
 - 컴퓨터에서 10진수 연산은 정확하지 않습니다.
 - 0.1이 사실 Computer 입장에서 무한수라는 사실!
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ac1a771-2758-446c-992e-11bb0a2cf152/Untitled.png)
+![image](https://user-images.githubusercontent.com/105140201/229548491-1f94ee98-8589-4bc4-8912-8ae1bb733f4e.png)
 
 ```jsx
 // 0.3 + 0.6
