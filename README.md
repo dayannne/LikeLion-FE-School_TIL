@@ -56,8 +56,22 @@
 #### 03/25(토) [HTML/CSS 주말특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230325%20-%20%EC%A3%BC%EB%A7%90%20%ED%8A%B9%EA%B0%95)
 >시멘틱 태그 • 마진 컬랩싱 • position & transform
 
-### 5주차
-#### 03/27(월) [Sass](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230327%20-%20Sass/%EC%88%98%EC%97%85%20%EC%9E%90%EB%A3%8C)
+### 5주차 - [회고✍️](https://velog.io/@day_1226/5%EC%A3%BC%EC%B0%A8)
+#### 03/27(월) [Sass](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230328%20-%20JavaScript)
 >주석 • 중첩(Nesting) • 변수 • Mixin
+#### 03/28(화) [JavaScript](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230327%20-%20Sass/%EC%88%98%EC%97%85%20%EC%9E%90%EB%A3%8C)
+>일단 만드는 JS •  세렝게티 동물MBTI 테스트 만들기
+#### 03/29(수) [Tailwind, Javascript(1)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230329%20-%20Tailwind%2C%20Javascript(1))
+>Tailwind - sizing •  color •  box-shadow •  trxt •  임의의 값 •  flex •  grid •  peer-checked
+#### 03/30() [Javascript(2)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230330%20-%20JavaScript%20(2))
+> DOM •  BOM • 변수 • 산술/논리/비교 연산 • 자료형(원시타입/객체타입) • 형변환 • String • 메서드 체이닝
 
-
+### 6주차 - [회고✍️]()
+#### 04/03(월) [JavaScript (3)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230403%20-%20JavaScript%20(3))
+>주석 • 중첩(Nesting) • 변수 • Mixin
+#### 04/04(화) [JavaScript (4)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230404%20-%20JavaScript%20(4))
+>주석 • 중첩(Nesting) • 변수 • Mixin
+#### 04/05(수) [CSS, JavaScript(5)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230405%20-%20CSS%2C%20JavaScript(5))
+>주석 • 중첩(Nesting) • 변수 • Mixin
+#### 04/06(목) [JavaScript (6)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230406%20-%20JavaScript%20(6))
+>주석 • 중첩(Nesting) • 변수 • Mixin
