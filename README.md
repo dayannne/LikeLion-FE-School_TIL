@@ -68,10 +68,10 @@
 
 ### 6주차 - [회고✍️]()
 #### 04/03(월) [JavaScript (3)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230403%20-%20JavaScript%20(3))
->주석 • 중첩(Nesting) • 변수 • Mixin
+>number 연산 - 할당연산 • 단항연산 • 증감연산 • 단락회로평가 • 삼항 연산자 • 드모르간 법칙 • nullish 연산자 • Boolean • NaN, undefine, null
 #### 04/04(화) [JavaScript (4)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230404%20-%20JavaScript%20(4))
->주석 • 중첩(Nesting) • 변수 • Mixin
+>객체타입 - Array • 객체타입 - Object • 객체 메소드(push()와 pop(), unshift()와 shift(), splice(), foreach(), map(), filter(), reduce(), sort()
 #### 04/05(수) [CSS, JavaScript(5)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230405%20-%20CSS%2C%20JavaScript(5))
->주석 • 중첩(Nesting) • 변수 • Mixin
+>CSS Sprite 기법 • 레티나 디스플레이 • 반응형 백그라운드 이미지 • 반응형 동영상 • JS - 조건문
 #### 04/06(목) [JavaScript (6)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230406%20-%20JavaScript%20(6))
->주석 • 중첩(Nesting) • 변수 • Mixin
+>vs Code 단축키 • JavaScript - switch / 반복문 for + 무한루프 / 반복문 while + continue/break/label / 전개구문 • Sass로 자기소개 card 만들기 특강
