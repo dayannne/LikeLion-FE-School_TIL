@@ -66,7 +66,7 @@
 #### 03/30() [Javascript(2)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230330%20-%20JavaScript%20(2))
 > DOM •  BOM • 변수 • 산술/논리/비교 연산 • 자료형(원시타입/객체타입) • 형변환 • String • 메서드 체이닝
 
-### 6주차 - [회고✍️]()
+### 6주차 - [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B0-6%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
 #### 04/03(월) [JavaScript (3)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230403%20-%20JavaScript%20(3))
 >number 연산 - 할당연산 • 단항연산 • 증감연산 • 단락회로평가 • 삼항 연산자 • 드모르간 법칙 • nullish 연산자 • Boolean • NaN, undefine, null
 #### 04/04(화) [JavaScript (4)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230404%20-%20JavaScript%20(4))
