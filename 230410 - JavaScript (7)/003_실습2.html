@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .canvas {
+            margin: 0 auto;
+            width: 500px;
+            height: 500px;
+            background-color: #000;
+        }
+
+        .btn_list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10vw;
+            margin-top: 30px;
+        }
+
+
+        .red {
+            background: red;
+        }
+
+        .yellow {
+            background: yellow;
+        }
+
+        .green {
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="canvas"></div>
+    <ul class="btn_list">
+        <li><button type="button" class="btn-red">빨강</button></li>
+        <li><button type="button" class="btn-yellow">노랑</button></li>
+        <li><button type="button" class="btn-green">초록</button></li>
+    </ul>
+    <script>
+        const canvas = document.querySelector('.canvas')
+        const colorBtn = document.querySelectorAll("button");
+
+        colorBtn.forEach(btn => {
+            btn.addEventListener('click', function () {
+                canvas.classList.remove('yellow', 'green', 'red');
+                canvas.classList.add(btn.className.slice(4));
+            });
+        });
+    </script>
+
+</body>
+
+</html>
