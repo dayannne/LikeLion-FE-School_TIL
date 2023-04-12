@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div id="parentElement">
+        <span id="childElement">hello guys~</span>
+    </div>
+    <script>
+        // parentElement.insertBefore(target, location); target요소를 parentElement의 자식인 location 위치 앞으로 이동합니다.
+
+        var span = document.createElement("span");
+        var sibling = document.getElementById("childElement");
+        var parentDiv = document.getElementById("parentElement");
+        parentDiv.insertBefore(span, sibling); // sibling(childElement)앞에 위치시킬거야
+    </script>
+</body>
+
+</html>
