@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>min/max width</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>
+        - width(max /min/width) 정복-
+    </h1>
+    <div class="width wrapper">
+        <h2 class="wrapper-title">Wrapper(Max-width)</h2>
+
+        <div class="width min">
+            <h2>Box 1 (min-width) </h2>
+
+
+        </div>
+        <div class="width wid">
+            <h2>Box 2 (width)</h2>
+        </div>
+        <div class="width max">
+            <h2>Box 2 (max-width)</h2>
+        </div>
+    </div>
+
+    <script>
+        const widths = document.querySelectorAll(".width");
+        const body = document.querySelector
+        widths.forEach((item) => {
+            const p = document.createElement("p");
+            item.appendChild(p);
+            function updateWidth() {
+                p.textContent = `현재 width값 : ${item.clientWidth}px`;
+            }
+            window.addEventListener("resize", () => {
+                updateWidth();
+            });
+            updateWidth();
+        });
+    </script>
+</body>
+
+</html>
