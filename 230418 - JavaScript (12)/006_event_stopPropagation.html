@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <h1>나의 todo list</h1>
+    <p>1. 오늘 저녁에는 부대찌개를 끓여 먹겠다.<button type="button">삭제</button></p>
+    <p>2. 후식으로 슈팅스타를 먹겠다.<button type="button">삭제</button></p>
+    <p>3. 자기 전에 반드시 내일 아침 메뉴를 생각해두겠다.<button type="button">삭제</button></p>
+    <script>
+        const deleteBtn = document.querySelectorAll('button')
+        const contents = document.querySelectorAll('p')
+
+        contents.forEach(text => {
+            text.addEventListener('click', () => {
+                alert(text.childNodes[0].nodeValue.trim())
+
+            })
+        })
+        deleteBtn.forEach(btn => {
+            btn.addEventListener('click', () => {
+                if (confirm('삭제하시겠습니까?')) { btn.parentNode.remove() }
+
+                event.stopPropagation();
+            })
+        })
+    </script>
+</body>
+
+</html>

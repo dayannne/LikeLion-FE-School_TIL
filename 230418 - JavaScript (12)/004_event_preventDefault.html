@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <script>
+        //이벤트 타입 contextmenu를 이용해 브라우저 오른쪽 버튼 이벤트 막고 '해당 페이지에서는 오른쪽 클릭을 제한합니다.’ 경고 띄우기
+        window.addEventListener('contextmenu', () => {
+            alert('해당 페이지에서는 오른쪽 클릭을 제한합니다.')
+            event.preventDefault()
+        })
+    </script>
+</body>
+
+</html>

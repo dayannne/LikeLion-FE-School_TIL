@@ -1,0 +1,16 @@
+<form action="">
+    <button type="submit" class="submit">제출</button>
+</form>
+
+<script>
+    const submit = document.querySelector('.submit');
+    submit.addEventListener('click', (event) => {
+        console.log('clicked');
+        event.preventDefault();
+        //event.stopPropagation();
+    });
+
+    document.body.addEventListener('click', () => {
+        console.log('event still alive!');
+    });
+</script>
