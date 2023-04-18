@@ -75,3 +75,15 @@
 >CSS Sprite 기법 • 레티나 디스플레이 • 반응형 백그라운드 이미지 • 반응형 동영상 • JS - 조건문
 #### 04/06(목) [JavaScript (6)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230406%20-%20JavaScript%20(6))
 >vs Code 단축키 • JavaScript - switch / 반복문 for + 무한루프 / 반복문 while + continue/break/label / 전개구문 • Sass로 자기소개 card 만들기 특강
+
+### 7주차 
+#### 04/10(월) [스프린트 회고, JavaScript (7)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230410%20-%20JavaScript%20(7))
+>DOM
+#### 04/11(화) [JavaScript (8)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230411%20-%20JavaScript%20(8))
+>속성 제어하기 • style 객체 • Attribute 메소드 • data 속성 • Adjacent • insertAdjacentHTML • 이벤트 객체 • 이벤트 흐름 • 이벤트 위임 • 이벤트 target, currentTarget
+#### 04/12(수) [JavaScript (9)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230412%20-%20JavaScript%20(9))
+>전개구문 복습 • 아규먼트 • roro기법 • 재귀함수 • 호이스팅 • 스코프 • 즉시 실행함수 • call by value • 클로저 • 생성자 함수 • 콜백함수 • MAP
+#### 04/13(목) [JavaScript (6)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230413%20-%20JavaScript%20(10))
+>set • this
+
+### 8주차 
