@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <script>
+        function FoodPicker(foodNames) {
+            this.name = foodNames;
+        }
+
+        FoodPicker.prototype.sayMenu = function () {
+            console.log(`삐리리리리 오늘의 메뉴는 ${this.name[Math.floor(Math.random() * this.name.length)]} 입니다.`);
+        }
+
+        let menu1 = new FoodPicker(['짜장면', '청국장', '김치찌개'])
+        let menu2 = new FoodPicker(['짜장면', '청국장', '김치찌개'])
+        menu1 // FoodPicker {name: Array(3)}
+        console.log(menu1)
+        // > FoodPicker
+        //      > name: (3)['짜장면', '청국장', '김치찌개']
+        //      > [[Prototype]]: Object
+    </script>
+</body>
+
+</html>

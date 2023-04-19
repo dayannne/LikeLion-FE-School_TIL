@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <script>
+        function Me() {
+            this.name = '차다연',
+                this.address = '경기도 수원시 권선구',
+                this.lang = ['python', 'c++', 'JavaScript'],
+                this.major = 'Japanese',
+                this.phoneNum = '010-6266-7421'
+
+        }
+        Me.prototype.introduce = function () {
+            console.log('미래의 주니어 프론트엔드 개발자입니다🌲');
+        }
+        Me.prototype.teaching = function (myStudent) {
+            myStudent.levelUp();
+        }
+
+    </script>
+</body>
+
+</html>
