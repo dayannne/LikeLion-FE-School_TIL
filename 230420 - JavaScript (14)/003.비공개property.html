@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <script>
+        // 클래스에서는 #을 이용해 간단히 비공개 프로퍼티를 만들 수 있고,
+        // 생성자 함수에서는 클로저를 이용해 만들 수 있다.
+        function PersonGenrator() {
+            let age = 25;
+
+            function InnerPersonType() { };
+
+            InnerPersonType.prototype.getAge = function () {
+                return age;
+            }
+
+            return InnerPersonType;
+        }
+
+        const Person = PersonGenrator();
+        const myPerson = new Person();
+
+        const PersonGenerator2 = (function () {
+            let age = 25;
+
+            function InnerPersonType() { };
+
+            InnerPersonType.prototype.getAge = function () {
+                return age;
+            }
+
+            return InnerPersonType;
+        })();
+
+        const myPerson2 = new PersonGenerator2();
+    </script>
+</body>
+
+</html>

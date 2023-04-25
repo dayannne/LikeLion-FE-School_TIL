@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            transition: .2s;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <script>
+        const target = document.querySelector('div');
+        let pos = 0;
+
+        document.addEventListener('keydown', move);
+
+        function move(event) {
+            const keyName = event.key;
+            console.log(keyName);
+
+            if (keyName === 'ArrowRight') {
+                pos += 15;
+                target.style.transform = `translateX(${pos}px)`;
+            } else if (keyName === 'ArrowLeft') {
+                pos -= 15;
+                target.style.transform = `translateX(${pos}px)`;
+            }
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <script>
+        class
+            Sausage {
+            constructor(taste1, taste2) {
+                this.taste1 = taste1
+                this.taste2 = taste2
+            }
+
+            taste() {
+                taste1, taste2, taste3
+                console.log(`${this.taste1}과 ${this.taste2} 맛이 난다!`);
+            }
+        }
+
+        class FiresSausage1 extends Sausage {
+
+            taste() {
+                // 서브 클래스에 생성자(constructor) 함수가 없다면 super 함수가 자동으로 호출되어 부모 클래스의 프로퍼티를 상속 받게 합니다.
+                console.log(`${this.taste1}와(과) ${this.taste2}, 불 맛이 난다`)
+            }
+        }
+
+        class FiresSausage2 extends Sausage {
+            constructor(taste1, taste2, taste3) {
+                super(taste1, taste2)
+                this.taste3 = taste3
+            }
+            taste() {
+                // 서브 클래스에 생성자(constructor) 함수가 없다면 super 함수가 자동으로 호출되어 부모 클래스의 프로퍼티를 상속 받게 합니다.
+                console.log(`${this.taste1}와(과) ${this.taste2}, ${this.taste3} 맛이 난다`)
+            }
+        }
+
+
+
+        const mySausage = new Sausage('마늘', '파')
+        let myFiredSausage1 = new FireSausage1('마늘', '파');
+        let myFiredSausage2 = new FireSausage1('마늘', '파', '불');
+    </script>
+</body>
+
+</html>
