@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  <style>
+    #language {
+      border-collapse: collapse;
+    }
+
+    #language th, td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    #btn1 { margin-top: 1rem; }
+
+    .title { text-decoration: underline; }
+
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <table id="language">
+    <thead>
+      <tr>
+        <th>언어</th>
+        <th>종류</th>
+        <th>연도</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="td-java" data-language="java" class="title">Java</td>
+        <td class="category">정적언어</td>
+        <td class="year">1995</td>
+      </tr>
+      <tr>
+        <td id="td-ruby" data-language="ruby" class="title">Ruby</td>
+        <td class="category">동적언어</td>
+        <td class="year">1993</td>
+      </tr>
+      <tr>
+        <td id="td-smalltalk" data-language="smalltalk" class="title">Smalltalk</td>
+        <td class="category">동적언어</td>
+        <td class="year">1972</td>
+      </tr>
+      <tr>
+        <td id="td-c++" data-language="c++" class="title">C++</td>
+        <td class="category">정적언어</td>
+        <td class="year">1983</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <button id="btn1">클릭</button>
+  <script>
+    // $java = $("#td-java");
+    // console.log($java.css("font-size"));
+
+    // $java.css("font-size", "30px");
+    // console.log($java.css("font-size"));
+  </script>
+</body>
+
+</html>

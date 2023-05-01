@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  <style>
+    #title { font-size: 2rem; }
+    .active { font-weight: bold; }
+    .bg-yellow { background-color: yellow; }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div id="title">jQuery의 주요 특징</div>
+    <div id="content">
+      <p>jQuery는 자바스크립트 라이브러리로, 웹 페이지의 DOM 조작, 이벤트 처리, 애니메이션 및 AJAX 기능을 간편하게 사용할 수 있는 도구입니다. 다음은 jQuery의 주요 특징들입니다.</p>
+      <ul>
+        <li class="item">간결한 문법</li>
+        <li class="item">높은 호환성</li>
+        <li class="item">다양한 플러그인</li>
+        <li class="item">AJAX 지원</li>
+        <li class="item active">메소드 체이닝</li>
+      </ul>
+
+      <button class="btn">jQuery 사이트로 이동하기</button>
+
+      <ul>
+        <li>jQuery 공식 웹사이트: 
+          <a href="https://jquery.com/">https://jquery.com/</a>
+        </li>
+        <li>jQuery 문서: 
+          <a href="https://api.jquery.com/">https://api.jquery.com/</a>
+        </li>
+        <li>jQuery 플러그인 저장소
+          <a href="https://plugins.jquery.com/">https://plugins.jquery.com/</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    $(function () {
+      // p 태그 선택하기
+      // $("p").addClass("bg-yellow");
+
+      // // div태그안에 있는 p태그 선택하기
+      // $("div p").addClass("bg-yellow");
+
+      // // id가 title인 엘리먼트를 선택하기
+      // $("#title").addClass("bg-yellow");
+
+      // // class가 btn인 엘리먼트를 선택하기
+      // $(".btn").addClass("bg-yellow");
+
+      // // 여러 클래스를 가진 요소 선택하기
+      // $(".item.active").addClass("bg-yellow");
+
+      // // 다른 태그 내에 있는 특정 태그를 가진 모든 요소 선택하기
+      // $("ul li a").addClass("bg-yellow");
+    });
+  </script>
+</body>
+
+</html>

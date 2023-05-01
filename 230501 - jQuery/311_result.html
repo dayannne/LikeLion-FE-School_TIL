@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+</head>
+
+<body>
+  <h1>User Login</h1>
+  <hr>
+  <code>
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "cityslicka"
+    }
+  </code>
+  <hr>
+  <form id="form-login">
+    <div>
+      <label for="email">email</label>
+      <input type="text" id="email">
+    </div>
+    <div>
+      <label for="password">비밀번호</label>
+      <input type="password" id="password">
+    </div>
+    <div>
+      <input type="submit" value="로그인" id="btn-submit">
+    </div>
+  </form>
+  <script>
+    $(function () {
+      $("#form-login").on("submit", function (e) {
+        // 추가 이벤트를 막아서 화면 새로고침 방지
+        e.preventDefault();
+        console.log("submit");
+
+        // 아이디와 비밀번호를 가져온다.
+        const email = $("#email").val();
+        const password = $("#password").val();
+
+        if (email == "" || password == "") {
+          alert("아이디와 비밀번호를 입력해주세요.");
+        }
+
+        // 서버로 아이디와 비밀번호를 전송한다.
+        const url = "https://reqres.in/api/login";
+        const data = {
+          email: email,
+          password: password
+        };
+
+        $.ajax({
+          url: url,
+          method: "POST",
+          data: data,
+          dataType: "json"
+        }).done(function (response_data) {
+          // console.log(response_data);
+          alert("로그인 성공");
+        }).fail(function (xhr, status, errorThrown) {
+          console.log(xhr);
+          console.log(xhr.responseJSON);
+          console.log(status);
+          console.log(errorThrown);
+          alert("로그인 실패");
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

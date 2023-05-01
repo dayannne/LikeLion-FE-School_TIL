@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이미지 갤러리</title>
+  <style>
+    #main-image-container {
+      margin: 10px;
+      min-height: 500px;
+    }
+  
+    #main-image-container img {
+      height: 500px;
+    }
+  
+    .images-container {
+      display: flex;
+    }
+  
+    .images-container img {
+      height: 150px;
+      margin: 10px;
+      border: 3px solid transparent;
+    }
+  
+    .images-container img.selected {
+      border: 3px solid red;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  <script>
+    $(function () {
+      // images-container 클래스를 가진 div 태그 안에 있는 img 태그들을 선택한다.
+      // 해당 이미지를 클릭할때 
+      // 1. 메인이미지를 비우고 메인이미지를 현재이미지로 변경한다.
+      // 2. 이미 빨간색 테두리가 되어있는 이미지가 있다면 테두리를 없앤다.
+      // 3. 현재 클릭한 이미지에 빨간색 테두리를 추가한다.
+    });
+  </script>
+</head>
+
+<body>
+  <div id="main-image-container">
+    <img src="https://bit.ly/40GBmXE" />
+  </div>
+  <div class="images-container">
+    <img src="https://bit.ly/3L7ccLZ" />
+    <img src="https://bit.ly/423cWIZ" />
+    <img src="https://bit.ly/3HCatgX" />
+    <img src="https://bit.ly/44gNdyL" />
+  </div>
+</body>
+
+</html>

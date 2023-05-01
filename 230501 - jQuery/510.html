@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css" />
+  <style>
+    .images-container {
+      display: flex;
+    }
+
+    .images-container img {
+      height: 150px;
+      margin: 10px;
+      border: 3px solid transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="images-container">
+    <a href="https://bit.ly/3L7ccLZ" data-lightbox="group1" data-title="숲">
+      <img src="https://bit.ly/3L7ccLZ" />
+    </a>
+
+    <a href="https://bit.ly/423cWIZ" data-lightbox="group2" data-title="바다">
+      <img src="https://bit.ly/423cWIZ" />
+    </a>
+    <a href="https://bit.ly/3HCatgX" data-lightbox="group2" data-title="호수">
+      <img src="https://bit.ly/3HCatgX" />
+    </a>
+    <a href="https://bit.ly/44gNdyL" data-lightbox="group2" data-title="길">
+      <img src="https://bit.ly/44gNdyL" />
+    </a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+  <script>
+    $(function () {
+
+    });
+  </script>
+</body>
+
+</html>

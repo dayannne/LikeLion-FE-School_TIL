@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>attributeContains demo</title>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+
+  <input name="man-news">
+  <input name="milkman">
+  <input name="letterman2">
+  <input name="newmilk">
+  <a href="http://jquery.com">jQuery</a>
+
+  <script>
+    // href 속성이 있는 요소
+    // $("[href]").css("background-color", "red");
+
+    // input 중 name속성이 있는 요소
+    // $("input[name]").css("background-color", "red");
+
+
+    // name 속성의 값이 newmilk인 요소
+    $("input[name='newmilk']").val("newmilk");
+
+    // name 속성의 값에서 man이 포함되는 요소
+    // $("input[name*='man']").val("man이 포함된 요소");
+    
+
+  </script>
+
+</body>
+
+</html>
