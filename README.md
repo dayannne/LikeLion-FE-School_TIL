@@ -4,7 +4,7 @@
 
 ## 목차
 
-### 1주차 - [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B0-1%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
+### 1주차 
 
 #### 02/27(월) [Orientation & HTML/CSS 강의](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230227%20-%20OT%2C%EC%9D%B4%EB%A0%A5%EC%84%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
 > OT
@@ -17,8 +17,7 @@
 #### 03/04(토) [박스 꾸미기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230304%20-%20CSS%20%EB%B0%95%EC%8A%A4%20%EA%BE%B8%EB%AF%B8%EA%B8%B0)
 
 
-### 2주차 - [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B02%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
-
+### 2주차 
 #### 03/06(월) [HTML-CSS (3), 카드 UI 만들기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230306%20-%20HTML-CSS%20(3)%2C%20%EC%B9%B4%EB%93%9C%20UI%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
 >background • display속성 • <img> • position속성
 
@@ -31,7 +30,7 @@
 #### 03/10(금) [선배림 특강, CSS 특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230310%20-%20%EC%84%A0%EB%B0%B0%ED%8A%B9%EA%B0%95%2C%20CSS%ED%8A%B9%EA%B0%95)
 >초기값(initial value) • 선택자(selector) • 상속(inheritrance) • 명시도(Selector Secificity) 
 
-### 3주차 - [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%82%AC-%ED%9A%8C%EA%B3%A0)
+### 3주차 
 #### 03/13(월) [CSS (1) button, 선택자, transform, transition, animation](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230313%20-%20CSS%20(1))
 ><버튼 만들기> • transform • transition • animation • CSS 선택자(동적가상, 속성) 
 #### 03/14(화) [CSS (2) 햄버거 메뉴 만들기, table, viedo, audio, iframe, form](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230314%20-%20CSS%20(2))
@@ -44,7 +43,7 @@
 >negative margin, margin:auto, width:auto, position, 가상 클래스
 
 
-### 4주차 - [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B0-4%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
+### 4주차 
 #### 03/20(월) [CSS (6) 검색 엔진 최적화, favicon, 영화 목록 만들기](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230320%20-%20CSS%20(6))
 >검색 엔진 최적화 • favicon • 영화 목록 만들기
 #### 03/21(화) [CSS (7)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230321%20-%20CSS%20(7))
@@ -56,7 +55,7 @@
 #### 03/25(토) [HTML/CSS 주말특강](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230325%20-%20%EC%A3%BC%EB%A7%90%20%ED%8A%B9%EA%B0%95)
 >시멘틱 태그 • 마진 컬랩싱 • position & transform
 
-### 5주차 - [회고✍️](https://velog.io/@day_1226/5%EC%A3%BC%EC%B0%A8)
+### 5주차 
 #### 03/27(월) [Sass](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230328%20-%20JavaScript)
 >주석 • 중첩(Nesting) • 변수 • Mixin
 #### 03/28(화) [JavaScript](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230327%20-%20Sass/%EC%88%98%EC%97%85%20%EC%9E%90%EB%A3%8C)
@@ -66,7 +65,7 @@
 #### 03/30() [Javascript(2)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230330%20-%20JavaScript%20(2))
 > DOM •  BOM • 변수 • 산술/논리/비교 연산 • 자료형(원시타입/객체타입) • 형변환 • String • 메서드 체이닝
 
-### 6주차 - [회고✍️](https://velog.io/@day_1226/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-FE%EC%8A%A4%EC%BF%A8-5%EA%B8%B0-6%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0)
+### 6주차 
 #### 04/03(월) [JavaScript (3)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230403%20-%20JavaScript%20(3))
 >number 연산 - 할당연산 • 단항연산 • 증감연산 • 단락회로평가 • 삼항 연산자 • 드모르간 법칙 • nullish 연산자 • Boolean • NaN, undefine, null
 #### 04/04(화) [JavaScript (4)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230404%20-%20JavaScript%20(4))
@@ -83,7 +82,26 @@
 >속성 제어하기 • style 객체 • Attribute 메소드 • data 속성 • Adjacent • insertAdjacentHTML • 이벤트 객체 • 이벤트 흐름 • 이벤트 위임 • 이벤트 target, currentTarget
 #### 04/12(수) [JavaScript (9)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230412%20-%20JavaScript%20(9))
 >전개구문 복습 • 아규먼트 • roro기법 • 재귀함수 • 호이스팅 • 스코프 • 즉시 실행함수 • call by value • 클로저 • 생성자 함수 • 콜백함수 • MAP
-#### 04/13(목) [JavaScript (6)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230413%20-%20JavaScript%20(10))
+#### 04/13(목) [JavaScript (10)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230413%20-%20JavaScript%20(10))
 >set • this
 
 ### 8주차 
+#### 04/17(월) [JavaScript (11)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230417%20-%20JavaScript%20(11))
+>this 복습 • 정규표현식 • canvas • D3
+#### 04/18(화) [JavaScript (12)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230418%20-%20JavaScript%20(12))
+>Date • 이벤트 실습 - 설렉트 박스 만들기 • preventDefault() • stopPropagation()
+#### 04/19(수) [JavaScript (13)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230419%20-%20JavaScript%20(13))
+>• 객체지향 프로그래밍 ◦ 생성자 ◦ 사용자정의 타입 ◦ 프로토타입 ◦ 객체의 상속 / • 클래스 ◦ 클래스 상속받기
+#### 04/20(목) [JavaScript (14)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230420%20-%20JavaScript%20(14))
+>최적화
+
+### 9주차 
+#### 04/24(월) [JavaScript (15)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230424%20-%20JavaScript%20(15))
+>• 최적화 ◦ DOM접근과 업데이트는 가능한 적게 ◦ DocumentFragment ◦ 메모리 / • AJAX ◦ 콜백지옥
+#### 04/25(화) [JavaScript (16)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230425%20-%20JavaScript%20(16))
+>• fetch천 ◦ promise ◦ fetch API
+#### 04/26(수) [React (1)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230426%20-%20React%20(1))
+>웹의 역사 • React • SPA • 뉴스API에서 뉴스의 주소값을 가져와 뉴스피드 SPA를 만들어보자
+#### 04/27(목) [JavaScript (17)](https://github.com/Da-Youn/LikeLion-FE-School_TIL/tree/main/230427%20-%20%EB%B0%B4%EB%94%A9%EB%A8%B8%EC%8B%A0)
+>웹팩 • 밴딩머신 만들기
+
