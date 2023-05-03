@@ -32,15 +32,14 @@ class ColaGenerator {
     // 여러 개의 DOM 노드를 생성하고, 이들을 일괄적으로 DOM에 삽입하여 성능향상
     const docFrag = document.createDocumentFragment();
     data.forEach((el) => {
-      // li값에 태그들 넣어주기
       const item = document.createElement('li');
       const itemTemplate = `
-        <button class="btn-cola" type="button" data-item="${el.name} data-count="el.count" data-price="${el.cost}" data-img="${el.img}">
-            <img class="cola-img" src="./img/${el.img}" alt="">
-            <span class="cola-name">${el.name}</span>
-            <strong class="cola-price">${el.cost}</strong>
-        </button>
-      `;
+            <button class="btn-cola" type="button" data-item="${el.name}" data-count="${el.count}" data-price="${el.cost}" data-img="${el.img}">
+                <img class="cola-img" src="./img/${el.img}" alt="">
+                <span class="cola-name">${el.name}</span>
+                <strong class="cola-price">${el.cost}원</strong>
+            </button>
+            `;
 
       item.innerHTML = itemTemplate;
       docFrag.append(item);
