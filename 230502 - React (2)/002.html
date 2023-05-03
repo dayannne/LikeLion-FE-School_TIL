@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // js로 만들어보는 돔
+        function GreetingJs({ name }) {
+            const h1 = document.createElement('h1');
+            h1.classList.add('greeting');
+            h1.appendChild(document.createTextNode('hello'));
+
+            const elI = document.createElement('i');
+            elI.appendChild(document.createTextNode(name));
+            h1.appendChild(elI);
+            h1.appendChild(document.createTextNode('. Welcome!'));
+
+            return h1;
+
+            // const h1 = document.createElement('h1');
+            // h1.innerHTML = `<h1 class="greeting">Hello<i>다연</i>. Welcome!</h1>`;
+
+
+        }
+
+        // 리액트로 만드는 돔
+        function GreetingVdom({ name }) {
+            return React.createElement(
+                'h1',  // 첫번째 인자는 만들 요소의 종류
+                { className: 'greeting' }, // 두번째 인자는 요소의 프로퍼티로, JSX 표현식, 중괄호 안에 있는 것을 JavaScript 코드로 변환
+                'Hello',
+                React.createElement(
+                    'i',
+                    null,
+                    name
+                ), // 세번째 인자 이후로는 자식요소.
+                '. Welcome!'
+            );
+        }
+
+
+        function GreetingJsx({ name }) {
+            return (
+                <h1 className="greeting">
+                    Hello<i>다연</i>. Welcome!
+                </h1>
+            )
+        }
+
+
+        function App() {
+            return React.createElement(
+                GreetingJsx, { name: '다연' }
+            )
+        }
+
+        const root = document.getElementById('root');
+        // root.appendChild(GreetingJs({ name: '다연' }));
+
+        const rootReact = ReactDOM.createRoot(root);
+        // ReactDOM.createRoot 함수는 React 18부터 도입된 함수로, React 애플리케이션에서 루트 노드를 만들고, 그 루트 노드를 기반으로 리액트 앱을 렌더링하는 데 사용됩니다.
+        rootReact.render(
+            <App />
+        );
+
+    </script>
+</body>
+
+</html>
