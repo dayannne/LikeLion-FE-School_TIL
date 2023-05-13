@@ -1,0 +1,6 @@
+/* 클래스에 스타일을 주어 가중치에 따라 변하는지 테스트 */
+.span-test {
+  color: blue;
+}
+.span-test {
+}
