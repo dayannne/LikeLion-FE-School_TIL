@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <script>
+        const arr = [1, 2, 3, 4, 5, 6, 7]
+
+        arr.push(5)
+        console.log(arr)
+        arr.pop()
+        console.log(arr) // [1, 2, 3, 4, 5, 6, 7]
+        arr.unshift(0) // 6개의 인덱스가 하나씩 밀리면서 변화가 일어난다.
+        console.log(arr) // [0, 1, 2, 3, 4, 5, 6, 7]
+        arr.unshift(-1) // // 6개의 인덱스가 하나씩 밀리면서 변화가 일어난다.
+        console.log(arr) // [-1, 0, 1, 2, 3, 4, 5, 6, 7]
+        // 데이터가 길어질 수록 n개의 인덱스 값에 변화가 일어나게 되므로
+        // 이 함수를 처리하는 데 걸리는 시간은 O(n), 선형 시간에 해당한다.
+
+        arr.splice(2, 1, 6) // 2 자리부터 1개를 제거하고 6을 넣는다
+        console.log(arr)
+        // splice는 가변적이어서, 다른 배열의 값들에 영향을 줄 수도 있고 안 줄수도 있다.
+        // 끝에 추가하면 영향이 없다. 최고 O(1)
+        // 맨 앞에 추가하면 모든 배열 값들에 영향을 준다. 최악 O(n)
+        // 중간에 빼고-넣는 것은 영향이 없지만 단순한 삽입인 경우 뒤 인덱스가 밀리면서 O(n)
+    </script>
+</body>
+
+</html>

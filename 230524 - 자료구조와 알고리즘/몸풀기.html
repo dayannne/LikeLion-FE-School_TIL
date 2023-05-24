@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <script>
+        // 두 값을 바꿔 보자
+        let a = 'hello';
+        let b = 'lions';
+        // 1)
+        let temp;
+        temp = a
+        a = b
+        b = temp;
+        // 2)
+        [a, b] = [b, a];
+
+        let a1 = 10;
+        let b1 = 20;
+        // 1) 
+        [a1, b1] = [b1, a1];
+        // 2)
+        a1 = a1 + b1 // a1 : 30
+        b1 = a1 - b1 // 30 - 20 = 10 
+        a1 = a1 - b1 // 30 - 10 = 20
+        // 3)
+        a = [a, b]
+        b = a[0]
+        a = a[1]
+    </script>
+</body>
+
+</html>
