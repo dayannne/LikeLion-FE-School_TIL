@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>회원가입</title>
+</head>
+
+<body>
+    <div id="root">
+        <section class="email-pw">
+            <h2 class="main-title">이메일로 회원가입</h2>
+            <div class="input-container">
+                <label for="emailInput">이메일</label>
+                <input type="email" id="emailInput" data-state="0" placeholder="이메일 주소를 알려주세요.">
+            </div>
+            <div class="input-container input-container-pw">
+                <label for="passwordInput">비밀번호</label>
+                <input type="password" id="passwordInput" data-state="0" placeholder="비밀번호를 설정해 주세요.">
+            </div>
+            <button type="button" class="next-btn">다음</button>
+        </section>
+
+        <section class="profile">
+            <h2 class="main-title join-profile-title">프로필 설정</h2>
+            <p class="profile-info-txt">나중에 언제든지 변경할 수 있습니다.</p>
+            <label for="profileImg">
+                <img src="http://146.56.183.55:5050/Ellipse.png" alt="" srcset="" id="imagePre">
+            </label>
+            <input type="file" id="profileImg" name="profile-img" accept="image/*" class="ir" />
+            <div class="input-container">
+                <label for="userNameInput">사용자 이름</label>
+                <input type="text" id="userNameInput" data-state="0" placeholder="2~10자 이내여야 합니다.">
+            </div>
+            <div class="input-container">
+                <label for="userIdInput">계정 ID</label>
+                <input type="text" id="userIdInput" data-state="0" placeholder="영문, 숫자, 특수문자(,), (_)만 사용 가능합니다.">
+            </div>
+            <div class="input-container input-container-intro">
+                <label for="userIntroInput">소개</label>
+                <input type="text" id="userIntroInput" data-state="1" placeholder="자신과 판매할 상품에 대해 소개해 주세요.">
+            </div>
+            <button type="button" class="submit-btn">감귤마켓 시작하기</button>
+        </section>
+    </div>
+    <script>
+        // 처음에 뭐해야함???
+        // 회원가입을 구현할것입니다 << 
+        // 회원가입 하려면 뭐가 필요함..???
+        // {
+        //     "user": {
+        //             "username": String*,
+        //             "email": String*,
+        //             "password": String*,
+        //             "accountname": String*,
+        //             "intro": String,
+        //             "image": String // 예시) https://api.mandarin.weniv.co.kr/1641906557953.png
+        //     }
+        // }
+        //  이게 필요함 ㅋ 
+
+
+        // 최종목표 감귤마켓 시작하기를 눌렀을때 회원가입이 되어야함
+        // 1. 버튼을 클릭했을때 뭐가 일어나야함
+        // 1.1 버튼을 찾자.
+        const btnSubmit = document.querySelector(".submit-btn");
+        const handleBtnSubmit = () => {
+            const email = emailInput.value;
+            const password = passwordInput.value;
+            const userName = userNameInput.value;
+            const userId = userIdInput.value;
+            const intro = introInput.value;
+            const imageUrl = document.querySelector("#imagePre").src
+
+            const data = {
+                "user": {
+                    "username": userName,
+                    "email": email,
+                    "password": password,
+                    "accountname": userId,
+                    "intro": intro,
+                    "image": imageUrl
+                }
+            }
+
+            fetch("https://api.mandarin.weniv.co.kr/user", {
+                method: "POST",
+                headers: {
+                    "Content-type": "application/json"
+                },
+                body: JSON.stringify(data)
+            }).then((res) => res.json()).then((json) => console.log(json));
+        }
+        btnSubmit.addEventListener("click", handleBtnSubmit)
+
+        // 저 회원가입을 하기 위해서는 입력창에 있는 값들을 가져와야함.
+        // 2. 버튼을 클릭했을 때 데이터를 받아와야 함..ㅋ
+        // 2.1 인풋 요소를 선택
+        const emailInput = document.querySelector("#emailInput");
+        const passwordInput = document.querySelector("#passwordInput");
+        const userNameInput = document.querySelector("#userNameInput");
+        const userIdInput = document.querySelector("#userIdInput");
+        const introInput = document.querySelector("#userIntroInput");
+
+        const imageInput = document.querySelector("#profileImg")
+
+        // 언제 파일 업로드가 이루어지나요?
+        // 내가 input에서 파일을 선택 했을때.
+        // 1. 파일 선택한거 확인했음
+        // 2. 파일확인해야지 ㅋㅋㅋㅋㅋㅋ
+        // 
+        const handleImageInput = async (e) => {
+            const formData = new FormData();
+            const imageFile = e.target.files[0];
+            formData.append("image", imageFile);
+            const res = await fetch("https://api.mandarin.weniv.co.kr/image/uploadfile", {
+                method: "POST",
+                body: formData
+            });
+            const json = await res.json();
+            document.querySelector("#imagePre").src = "https://api.mandarin.weniv.co.kr/" + json.filename
+        }
+        imageInput.addEventListener("change", handleImageInput)
+    </script>
+</body>
+
+</html>
